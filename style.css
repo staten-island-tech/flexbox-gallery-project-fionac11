@@ -22,11 +22,11 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   width: 85vw;
-  margin: 15px auto;
+  margin: 10px auto;
 }
 .card {
   height: 35rem;
-  font-size: 2rem;
+  font-size: 15px;
   background-color: white;
   padding: 1rem;
   width: 30%;
@@ -44,7 +44,6 @@ body {
 .subtitle {
   height: 5rem;
   background-color: transparent;
-  border: solid lightgrey;
   font-size: 2rem;
   padding: 1rem;
   width: 21%;
@@ -52,4 +51,11 @@ body {
   text-align: center;
   border-radius: 5px;
   color: grey;
+}
+.img {
+  padding: 1rem;
+  width: 282px;
+  height: 290px;
+  object-fit: cover;
+  border-radius: 1.5rem;
 }
