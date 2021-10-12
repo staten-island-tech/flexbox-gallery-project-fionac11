@@ -37,7 +37,6 @@ body {
   color: darkgrey;
   align-items: center;
   box-shadow: 0 8px 8px rgb(193, 202, 209);
-  box-shadow: h-offset;
 }
 .caption {
   text-align: center;
