@@ -73,4 +73,6 @@ body {
   background-color: rgb(232, 238, 212);
 }
 .papaya.hover {
+  outline: solid 5px rgb(235, 169, 126);
+  outline-style: dotted;
 }
