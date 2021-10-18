@@ -60,19 +60,26 @@ body {
   object-fit: cover;
   border-radius: 1.5rem;
 }
-.card:hover {
+.cherry:hover {
+  outline: 3px solid rgb(175, 49, 49);
+  outline-offset: 5px;
+  color: rgb(175, 49, 49);
   transform: scale(1.1);
   transition: all 0.4s;
 }
-.cherry:hover {
-  outline: 3px solid rgb(218, 103, 103);
-  outline-offset: 5px;
-  color: rgb(218, 103, 103);
-}
 .pear:hover {
   background-color: rgb(232, 238, 212);
+  transform: scale(1.05);
+  transition: 0.2s;
 }
-.papaya.hover {
-  outline: solid 5px rgb(235, 169, 126);
-  outline-style: dotted;
+.papaya:hover {
+  margin: 1rem;
+  transition: 0.5s;
+}
+.pomegranate:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+.pineapple:hover {
+  background-color: rgba(255, 236, 172, 0.986);
 }
