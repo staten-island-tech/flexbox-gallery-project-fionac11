@@ -60,6 +60,10 @@ body {
   object-fit: cover;
   border-radius: 1.5rem;
 }
+.other:hover {
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
 .cherry:hover {
   outline: 3px solid rgb(175, 49, 49);
   outline-offset: 5px;
@@ -83,4 +87,30 @@ body {
 .pineapple:hover {
   filter: sepia(0.7);
   transform: scale(0.9);
+}
+@media screen and (max-width: 1100px) {
+  .card {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 740px) {
+  .card {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .card {
+    width: 95%;
+  }
+  .img {
+    width: 272px;
+    height: 280px;
+  }
+}
+.animation {
+}
+@keyframes {
+  0% {
+    opacity: 0%;
+  }
 }
