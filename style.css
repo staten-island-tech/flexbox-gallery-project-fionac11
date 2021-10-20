@@ -108,9 +108,18 @@ body {
   }
 }
 .animation {
+  position: relative;
+  animation-name: load;
+  animation-duration: 2s;
 }
-@keyframes {
+
+@keyframes load {
   0% {
     opacity: 0%;
+  }
+
+  100% {
+    opacity: 80%;
+    transform: scale(1.02);
   }
 }
