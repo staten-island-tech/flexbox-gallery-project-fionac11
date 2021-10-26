@@ -55,8 +55,8 @@ body {
 }
 .img {
   padding: 1rem;
-  width: 282px;
-  height: 290px;
+  width: 30rem;
+  height: 29rem;
   object-fit: cover;
   border-radius: 1.5rem;
 }
@@ -103,8 +103,8 @@ body {
     width: 95%;
   }
   .img {
-    width: 272px;
-    height: 280px;
+    width: 27rem;
+    height: 28rem;
   }
 }
 .animation {
